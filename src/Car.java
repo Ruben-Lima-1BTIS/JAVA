@@ -20,7 +20,7 @@ class Car {
   public int getYear() {return year;}
   public double getCC() {return CC;}
   public String getColor() {return color;}
-  
+
   public String getDetails() {
     StringBuilder sb = new StringBuilder();
     sb.append("Brand: ").append(brand).append("\n");

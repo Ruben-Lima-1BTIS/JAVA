@@ -39,11 +39,11 @@ class StockVeiculos {
 			input.nextLine();
 		} while ((choice == 'y' || choice == 'Y'));
 
-		System.out.println("\n--- Cars Registered ---\n");
+		System.out.println("\nCars Registered\n");
 	}
 
 	public void printCarDetails() {
-		System.out.println("_____Car Details_____\n");
+		System.out.println("Car Details\n");
 		int counter = 1;
 		for (Car car : cars) {
 			System.out.println("Car " + counter++ + ":\n" + car.getDetails() + "\n");
@@ -51,7 +51,7 @@ class StockVeiculos {
 	}
 
 	public void printFilteredCars() {
-		System.out.println("\n_____Special Cars Detected_____");
+		System.out.println("\nSpecial Cars Detected");
 		int grayCounter = 0;
 		int before2020Counter = 0;
 
