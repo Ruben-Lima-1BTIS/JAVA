@@ -12,7 +12,7 @@ public class Main {
 			System.out.println(msg);
 		}
 		
-		System.out.println("\n\nFound some special cars broski 🥺\n");
+		System.out.println("\n_____Found some special cars broski 🥺_____");
 		for(String msg : stock.filtrosVeiculos()){
 			System.out.println(msg);
 		}
