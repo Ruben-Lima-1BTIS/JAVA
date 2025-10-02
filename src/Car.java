@@ -17,14 +17,10 @@ class Car {
     this.isAutomatic = isAutomatic;
   }
 
-  public int getId() {return id;}
   public int getYear() {return year;}
   public double getCC() {return CC;}
-  public String getBrand() {return brand;}
-  public String getModel() {return model;}
   public String getColor() {return color;}
-  public boolean isAutomatic() {return isAutomatic;}
-
+  
   public String getDetails() {
     StringBuilder sb = new StringBuilder();
     sb.append("Brand: ").append(brand).append("\n");
